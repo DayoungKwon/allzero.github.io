@@ -90,6 +90,7 @@ function addAnswer(answerText, qIdx, idx) {
 }
 
 function goNext(qIdx) {
+  console.log("!!! ", qIdx);
   if (qIdx === endPoint) {
     goResult();
     return;
