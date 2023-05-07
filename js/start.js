@@ -1,8 +1,8 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
-let pos = 12;
-const endPoint = 12;
+let pos = 7;
+const endPoint = 7;
 const select = [0, 0, 0, 0];
 //E0 I1 S2 N3 T4 F5 J6 P7
 var i = 0;
