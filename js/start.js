@@ -41,11 +41,7 @@ function setResult() {
   sessionStorage.setItem("pos", pos); // 저장
 
   location.href =
-    window.location.protocol +
-    "//" +
-    window.location.host +
-    "/result.html?" +
-    point;
+    "https://dayoungkwon.github.io/allzero.github.io/result.html?" + point;
 }
 
 function goResult() {
