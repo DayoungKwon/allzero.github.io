@@ -105,6 +105,7 @@ function goNext(qIdx) {
 }
 
 function begin() {
+  ㄹ;
   sessionStorage.clear();
   main.style.WebkitAnimation = "fadeOut 1s";
   main.style.animation = "fadeOut 1s";

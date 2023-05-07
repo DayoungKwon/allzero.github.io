@@ -1,8 +1,8 @@
 function setShare(point) {
   const shareImage =
-    "https://dayoungkwon.github.io/allzero.github.io/image/shareImage.png";
+    "https://dayoungkwon.github.io/allzero.github.io/image/shareimage.png";
   const shareURL =
-    "https://dayoungkwon.github.io/allzero.github.io//result.html?" + point;
+    "https://dayoungkwon.github.io/allzero.github.io/result.html?" + point;
   Kakao.Link.sendDefault({
     objectType: "feed",
     content: {
