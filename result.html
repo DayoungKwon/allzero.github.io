@@ -132,7 +132,7 @@
 		</section>
 		<script>
 			url = location.href;
-			const point = url.substr(url.length - 4, 4);
+			const point = url.substr(url.length - 2, 2);
 			const imgName = point + ".png"
 
 			// 버튼을 추가할 컨테이너 가져오기
@@ -151,7 +151,7 @@
 			const resultImage = document.createElement("img");
 			resultImage.setAttribute("class", "img-fluid rounded");
 
-			console.log(imgName)
+			console.log('imgName', imgName)
 			resultImage.src = './image/' + imgName;
 			container.appendChild(resultImage);
 
