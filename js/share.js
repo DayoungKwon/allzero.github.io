@@ -1,8 +1,8 @@
 function setShare(point) {
   const shareImage =
-    "https://dayoungkwon.github.io/allzero.github.io/image/shareimage.png";
+    "https://allzero-kwon.github.io/zinro/image/shareimage.png";
   const shareURL =
-    "https://dayoungkwon.github.io/allzero.github.io/result.html?" + point;
+    "https://allzero-kwon.github.io/zinro/result.html?" + point;
   Kakao.Link.sendDefault({
     objectType: "feed",
     content: {
@@ -26,5 +26,5 @@ function setShare(point) {
   });
 }
 function moveto() {
-  location.href = "https://dayoungkwon.github.io/allzero.github.io/";
+  location.href = "https://allzero-kwon.github.io/zinro/";
 }
