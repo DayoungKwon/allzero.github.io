@@ -41,7 +41,7 @@ function setResult() {
   sessionStorage.setItem("pos", pos); // 저장
 
   location.href =
-    "https://dayoungkwon.github.io/zinro/result.html?" + point;
+    "https://allzero-kwon.github.io/zinro/result.html?" + point;
 }
 
 function goResult() {
